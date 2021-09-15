@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/** Seccion BarSearch **/
+.container-bar-search {
+  background-image: url("../images/San-Alfonso-del-Mar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.titulo {
+  color: aliceblue;
+  padding: 1% 0;
+}
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+  height: 200px;
+  color: aliceblue;
+  padding: 3% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section-bar-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position-y: 2;
+  color: aliceblue;
+}
+
+.cover {
+  height: 40%;
+  width: 85%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 17px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.cover-foot {
+  height: 40px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #fddea6;
+  padding-top: 7px;
+  position: relative;
+  top: calc(40vh - 120px);
+}
+
+.flex-form {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 100;
+}
+
+.icon-element-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/** DatePicker **/
+.date-picker-style {
+  padding: 0 1rem;
+  background: transparent;
+  width: 120px;
+  border: none;
+  color: aliceblue;
+}
+
+/*** Select ***/
+.select-style {
+  background: transparent;
+  width: 200px;
+  border: none;
+  color: aliceblue;
+}
+
+.button-style {
+  background: transparent;
+  width: 200px;
+  border: none;
+  color: aliceblue;
+  border: aliceblue;
+}
+/*** Select ***/
+
+.hotel {
+  width: 200px;
+  border: 1px solid;
+  height: 300px;
+}
+
+.hoteles {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: -1;
+}
+
+/* Card */
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-element {
+  margin: 1.5rem 1rem;
+  width: 30%;
+}
+.card-text {
+  text-align: justify;
+}
+
+.icon-location {
+  transform: translateY(-2px);
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  width: 60px;
+  margin: 4px 10px;
+}
+.container-date {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-date {
+  display: flex;
+  justify-content: space-around;
+}
